@@ -1,0 +1,56 @@
+{
+  "catalog": {
+    "categories": [
+      {
+        "id": 1,
+        "name": "Одежда",
+        "products": [
+          {
+            "id": 101,
+            "name": "Футболка",
+            "brand": "BrandA",
+            "price": 799,
+            "currency": "RUB",
+            "sizes": ["S", "M", "L", "XL"],
+            "colors": ["белый", "черный", "синий"],
+            "inStock": true
+          },
+          {
+            "id": 102,
+            "name": "Джинсы",
+            "brand": "BrandB",
+            "price": 2499,
+            "currency": "RUB",
+            "sizes": ["30", "32", "34", "36"],
+            "colors": ["синий", "черный"],
+            "inStock": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Аксессуары",
+        "products": [
+          {
+            "id": 201,
+            "name": "Часы",
+            "brand": "BrandC",
+            "price": 4999,
+            "currency": "RUB",
+            "colors": ["черный", "серебристый"],
+            "inStock": true
+          },
+          {
+            "id": 202,
+            "name": "Ремень",
+            "brand": "BrandD",
+            "price": 1299,
+            "currency": "RUB",
+            "colors": ["коричневый", "черный"],
+            "inStock": true
+          }
+        ]
+      }
+    ]
+  }
+}
