@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 80px;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+
+.header a {
+    font-family: "Jersey 15", sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 64px;
+}
+
+.navbar {
+    margin-left: auto;
+}
+
+.basket {
+    width: 40px;
+}
